@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  position: fixed;
+  z-index: 69;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background: black;
+  height: 60px;
+  width: 100%;
+}
+.logo a {
+  color: white;
+  font-size: 35px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.logo a:hover {
+  color: rgb(240, 197, 6);
+}
+.menu {
+  display: flex;
+  gap: 20px;
+}
+.menu ul {
+  display: flex;
+  gap: 15px;
+}
+.menu ul li {
+  list-style: none;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  position: relative;
+  transition: color 0.5s;
+}
+.menu ul li a:hover,
+.menu ul li a:active {
+  color: rgb(243, 168, 7);
+}
+.menu ul li a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: rgb(243, 168, 7);
+  bottom: -5px;
+  left: 0;
+  transition: width 0.5s;
+}
+.menu ul li a:hover::before {
+  width: 100%;
+}
+.search {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.search input {
+  height: 30px;
+  width: 300px;
+  border: none;
+  padding: 5px;
+}
+.search ion-icon {
+  position: absolute;
+  right: 10px;
+  color: black;
+}
+.hydrated{
+  color: white;
+  /* font-size: 35px; */
+  cursor: pointer;
+  z-index: 69;
+}
+.ham,
+.close {
+  cursor: pointer;
+  display: none;
+}
+.img-slider {
+  display: flex;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.img-slider img {
+  width: 100%;
+  height: auto;
+  animation: slide 10s infinite;
+}
+@keyframes slide {
+  0%,
+  15%,
+  100% {
+    transform: translateX(0);
+  }
+  20%,
+  35% {
+    transform: translateX(-100%);
+  }
+  40%,
+  55% {
+    transform: translateX(-200%);
+  }
+  60%,
+  75% {
+    transform: translateX(-300%);
+  }
+  80%,
+  95% {
+    transform: translateX(-400%);
+  }
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.items {
+  width: 300px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+.items img {
+  width: 100%;
+  height: auto;
+}
+.items .name {
+  font-size: 24px;
+  margin-top: 10px;
+}
+.items .price {
+  font-size: 18px;
+  margin-top: 5px;
+}
+.items .info {
+  font-size: 14px;
+  margin-top: 10px;
+}
+footer {
+  background: #111;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.footer0 h1 {
+  margin-bottom: 10px;
+}
+.footer1 {
+  margin-bottom: 20px;
+}
+.footer1 .social-media a {
+  margin: 0 5px;
+  color: white;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+.footer1 .social-media a:hover {
+  color: rgb(240, 197, 6);
+}
+.footer2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.footer2 .heading {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.footer2 .div {
+  margin: 5px 0;
+}
+.footer3 {
+  font-size: 14px;
+}
