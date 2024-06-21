@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      h2 {
+        text-align: center;
+        background-color: white;
+        color: black;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        background-color: #117adc;
+      }
+
+      html {
+        box-sizing: border-box;
+      }
+
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
+
+      .column {
+        float: left;
+        width: 25%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+        background-color: #0fbee0;
+      }
+
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+      }
+
+      .about-section {
+        padding: 50px;
+        text-align: center;
+        background-color: #283747;
+        color: white;
+      }
+
+      .container {
+        padding: 0 16px;
+      }
+
+      .container::after,
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .title {
+        color: black;
+      }
+
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      .button:hover {
+        background-color: black;
+      }
+
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="about-section">
+      <h1>About us</h1>
+      <p>
+        Welcome to E-Mart, your ultimate destination for all your shopping
+        needs! Founded by Saman Badal, E-Mart is committed to providing you with
+        an exceptional online shopping experience.
+      </p>
+      <h2>Our Vision</h2>
+      <p>
+        At E-Mart, we envision revolutionizing the online shopping landscape by
+        offering a wide range of high-quality products at competitive prices,
+        coupled with unparalleled customer service.
+      </p>
+      <h2>Our Mission</h2>
+      <p>
+        Our mission is to make shopping convenient, enjoyable, and affordable
+        for everyone. With a user-friendly interface and seamless navigation, we
+        strive to create a platform that caters to the diverse needs and
+        preferences of our customers.
+      </p>
+    </div>
+
+    <h2 style="text-align: center">Our Team</h2>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Erick_Sermon_%289288240438%292.jpg/1200px-Erick_Sermon_%289288240438%292.jpg"
+            alt="Jane"
+            style="width: 25%"
+          />
+          <div class="container">
+            <h2>Saman Badal</h2>
+            <p class="title">Founder & CEO</p>
+            <p>
+              As the visionary behind E-Mart, Saman's passion for
+              entrepreneurship and dedication to customer satisfaction drive our
+              company forward.
+            </p>
+            <p>badalsaman032@gmail.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img
+            src="https://th.bing.com/th/id/OIP.AoJcmS7hOj-N8JXsMrLpgQHaE8?pid=Api&rs=1"
+            alt="Mike"
+            style="width: 50%"
+          />
+          <div class="container">
+            <h2>Lisa</h2>
+            <p class="title">Manager</p>
+            <p>goog manager</p>
+            <p>lisae@example.com</p>
+            ...
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img
+            src="https://th.bing.com/th/id/OIP.AoJcmS7hOj-N8JXsMrLpgQHaE8?pid=Api&rs=1"
+            alt="Mike"
+            style="width: 50%"
+          />
+          <div class="container">
+            <h2>Mrs. Budathoki</h2>
+            <p class="title">Swiper</p>
+            <p>🧹🧹🧹🧹</p>
+            <p>Swiper@example.com</p>
+            ...
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img
+            src="https://th.bing.com/th/id/OIP.h82r6DD_L16dGGpV7pn1aAHaKb?w=179&h=252&c=7&o=5&pid=1.7"
+            alt="John"
+            style="width: 25%"
+          />
+          <div class="container">
+            <h2>Aakku</h2>
+            <p class="title">Designer</p>
+            <p>
+              Aakku's creative expertise and attention to detail bring E-Mart's
+              digital storefront to life, ensuring a visually stunning and
+              intuitive shopping experience for our customers. Also the
+              mastermind benild everything about E-Mart and father figure of our
+              ceo
+            </p>
+            <p>ian@example.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <hr />
+    <h1 style="text-align: center; color: blanchedalmond">
+      Saman Badal (Founder & CEO)
+    </h1>
+    <p style="text-align: center">
+      Saman Badal, the driving force behind E-Mart, is a visionary entrepreneur
+      with a relentless passion for innovation and customer satisfaction. With a
+      background in [mention any relevant industry or experience], Saman
+      embarked on a journey to redefine the e-commerce landscape by founding
+      E-Mart. <br />
+      Driven by a deep understanding of consumer needs and market trends,
+      Saman's leadership has propelled E-Mart to become a trusted name in online
+      shopping. His unwavering commitment to excellence and dedication to
+      delivering value to customers have set the foundation for E-Mart's
+      success. <br />
+      Beyond his role as CEO, Saman is deeply involved in every aspect of
+      E-Mart's operations, from curating product selections to fostering a
+      culture of creativity and collaboration within the team. Under his
+      guidance, E-Mart continues to evolve and innovate, staying ahead of the
+      curve in an ever-changing market. <br />
+      Saman's vision for E-Mart goes beyond just business; it's about creating a
+      community where customers feel valued, empowered, and inspired to explore
+      new possibilities. His approachable demeanor and hands-on leadership style
+      reflect E-Mart's core values of integrity, transparency, and
+      customer-centricity. <br />
+      As E-Mart continues to grow and expand its offerings, Saman remains
+      committed to driving positive change and making a meaningful impact in the
+      world of e-commerce.
+    </p>
+
+    <hr />
+    <hr />
+  </body>
+
+  <footer>
+    <h2>Copyright @ 2020 . Allen .All Rights Reserved</h2>
+  </footer>
+</html>
