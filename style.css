@@ -30,7 +30,7 @@ header {
 }
 .menu ul {
   display: flex;
-  gap: 15px;
+  gap: 19px;
 }
 .menu ul li {
   list-style: none;
@@ -75,7 +75,7 @@ header {
   right: 10px;
   color: black;
 }
-.hydrated{
+.hydrated {
   color: white;
   /* font-size: 35px; */
   cursor: pointer;
