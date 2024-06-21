@@ -14,11 +14,13 @@ header {
   align-items: center;
   padding: 0 20px;
   background: black;
-  height: 60px;
+  height: 5.3vw;
   width: 100%;
+  display: flex;
 }
 
 .logo a {
+  height: 1vw;
   color: white;
   font-size: 35px;
   font-weight: 500;
@@ -27,17 +29,24 @@ header {
 }
 
 .logo a:hover {
-  color: rgb(240, 197, 6);
+  color: #e3c023;
+  cursor: pointer;
 }
-
-.menu {
-  display: flex;
-  gap: 20px;
+.logo > a > p{
+  height: 10vw;
+  display: inline;
+  color: white;
+  font-size: 35px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.5s;
 }
 
 .menu ul {
   display: flex;
   gap: 19px;
+  margin-left: 2vw;
+  margin-right: 1vw;
 }
 
 .menu ul li {
