@@ -32,7 +32,7 @@ header {
   color: #e3c023;
   cursor: pointer;
 }
-.logo > a > p{
+.logo > a > p {
   height: 10vw;
   display: inline;
   color: white;
@@ -51,6 +51,14 @@ header {
 
 .menu ul li {
   list-style: none;
+}
+.heading {
+  color: white;
+  font-size: 35px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.5s;
+  display: none;
 }
 
 .menu ul li a {
@@ -139,6 +147,19 @@ header {
     color: white;
     font-size: 30px;
   }
+  .heading1 {
+    display: block;
+    z-index: 69;
+  }
+  .heading1 :active {
+    display: block;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.5s;
+    z-index: 69;
+  }
 
   .close {
     display: block;
@@ -146,6 +167,7 @@ header {
     margin: 10px;
     color: white;
     font-size: 30px;
+    z-index: 69;
   }
 
   .search {
@@ -211,7 +233,12 @@ header {
   width: 100%;
   height: auto;
 }
-
+.name,
+.price,
+.info {
+  color: black;
+  z-index: inherit;
+}
 .items .name {
   font-size: 24px;
   margin-top: 10px;
@@ -220,6 +247,7 @@ header {
 .items .price {
   font-size: 18px;
   margin-top: 5px;
+  z-index: 69;
 }
 
 .items .info {
