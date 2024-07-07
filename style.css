@@ -324,5 +324,11 @@ footer {
 }
 
 .footer3 {
+  margin-bottom: -1.2vw !important;
+  background-color: #020a32;
   font-size: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+
 }
